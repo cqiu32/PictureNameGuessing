@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PictureName Guessing Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> Jason Qiu</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-nav-demo">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Sign Up</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Let's Guess the name!</h1>
+                <p>Guess which picture represents the name that is being shown</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="container">
+            <h2 id="info">Where is this place? <span id="answer"></span></h2>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img id="brem" wtf="false" class="img-rounded" src="img/Bremerton.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img id='uw'wtf="false"class="img-rounded"src="img/Red_Sqaure.jpg">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img id='sac' wtf="false"class="img-rounded"src="img/Sacramento.JPG">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img id='sd'wtf="false"class="img-rounded"src="img/San_Diego.JPG">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img id='sf'wtf="false"class="img-rounded"src="img/San_Francisco.JPG">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="thumbnail">
+                        <img id='sea'wtf="false"class="img-rounded"src="img/Seattle.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
